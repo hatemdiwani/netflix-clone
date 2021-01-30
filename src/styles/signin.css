@@ -1,0 +1,118 @@
+.login-pannel {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/ddaf09bc-0e19-4c9d-848c-b759f05c4be8/TN-fr-20210125-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  width: 100vw;
+  object-fit: cover;
+  height: 100vh;
+}
+.login-pannel:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent 50%, black 100%),
+    linear-gradient(to top, transparent 50%, black 100%);
+}
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+
+.login-header > img {
+  height: 100px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.login-header > button {
+  height: 35px;
+  margin-top: 25px;
+  width: 80px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.login-content {
+  margin-top: 13vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-content > h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.login-content > h5 {
+  font-size: 33px;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.login-content > h6 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  justify-content: center;
+  z-index: 1;
+}
+
+.valid-input {
+  min-width: 400px;
+  height: 70px;
+  outline: none;
+  z-index: 1;
+  font-size: 20px;
+}
+.invalid-input {
+  border-bottom: 1px solid orange;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  min-width: 400px;
+  height: 70px;
+  outline: none;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.login-button {
+  height: 74px;
+  background-color: red;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 30px;
+  z-index: 1;
+  cursor: pointer;
+  transform: translateY(3px);
+}
+
+.email-error {
+  font-size: bold 16px;
+  color: orange;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+.form {
+  height: 70px;
+}

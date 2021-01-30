@@ -1,0 +1,17 @@
+.dark-theme {
+  background-color: black;
+  color: white;
+}
+
+.light-theme {
+  background-color: white;
+  color: black;
+}
+
+.light-theme > div > div > h2 {
+  color: black;
+}
+
+* {
+  margin: 0;
+}
